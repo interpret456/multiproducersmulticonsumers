@@ -5,10 +5,17 @@ plugins {
     kotlin("jvm") version "1.7.21"
     `java-library`
     `maven-publish`
+    idea
 }
 
 repositories {
     mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
 }
 
 dependencies {
