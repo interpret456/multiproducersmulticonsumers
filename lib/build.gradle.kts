@@ -53,7 +53,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/t4w4n3/multiproducersmulticonsumers")
+            url = uri("https://maven.pkg.github.com/interpret456/multiproducersmulticonsumers")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
